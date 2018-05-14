@@ -1,5 +1,3 @@
-
-
 print('this program solve this kind of equestion ax^2 + bx +c')
 
 
