@@ -10,17 +10,11 @@ d = float(b**2 - 4 * a * c)
 
 print('\n''discriminant = b^2 - 4 * a * c = ' + str(b * b) + ' - ' + str(4 * a * c) + ' = ' + str(d))
 
-
 if d < 0:
-
-  
     print ('\n''havent roots, because ' + str(d) + ' < 0 ')
 
-    
     file = open('answers.txt', 'w')
     file.write('\n''havent roots because: ' + str(d) + ' < 0')
-   
-
 
 elif d == 0:
     x = float(-b / (2 * a))
@@ -37,9 +31,7 @@ elif d == 0:
 
 
 
-else: 
-	
-
+else:
     e = pow(d, 0.5)            
     
     x1 = (-b + e) / (2 * a)
