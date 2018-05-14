@@ -1,6 +1,5 @@
 print('this program solve this kind of equestion ax^2 + bx +c')
 
-
 a = input('\n''please write number for a: ')
 b = input('\n''please write number for b: ')
 c = input('\n''please write number for c: ')
@@ -22,8 +21,6 @@ elif d == 0:
     print('\n''x = -b / (2 * a) = ' + str(-b) + ' / ' + str(2 * a) + ' = ' + str(x))
 
     print ('\n''Have one root: '+ str(x))
-    
-    
 
     file = open('answers.txt', 'w')
     file.write('\n''Discriminant: ' + str(d))
